@@ -10,8 +10,8 @@ section.section-carousel-testimonial {
     }
 
     .carousel-inner {
-        .carousel-item {
 
+        .carousel-item {
             color: white;
 
             .content {
@@ -24,6 +24,7 @@ section.section-carousel-testimonial {
                 .testimonial {
                     display: flex;
                     align-items: flex-start;
+
                     .img-quote {
                         width: 40px;
                         margin-right: 2rem;
@@ -42,7 +43,8 @@ section.section-carousel-testimonial {
                     display: flex;
                     justify-content: flex-end;
                     align-items: center;
-                    img{
+
+                    img {
                         margin-right: 2rem;
                         width: 4rem;
                         height: 4rem;
@@ -51,13 +53,15 @@ section.section-carousel-testimonial {
                             width: 8rem;
                             height: 8rem;
                         }
+                    }
 
+                    p {
+                        font-style: italic;
+                        padding-right: .1rem;
                     }
                 }
             }
-
         }
-
     }
 
     .carousel-indicators {
@@ -75,5 +79,4 @@ section.section-carousel-testimonial {
             }
         }
     }
-
 }
