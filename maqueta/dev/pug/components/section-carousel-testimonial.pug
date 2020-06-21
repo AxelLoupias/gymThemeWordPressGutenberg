@@ -1,0 +1,26 @@
+section.section-carousel-testimonial
+    h2(style="color:#fff") Testimoniales
+    .container
+        #carouselTestimonial.carousel.slide(data-ride="carousel")
+
+            .carousel-inner
+                .carousel-item.active
+                    .content
+                        .testimonial
+                            img(src="images/quote.svg").img-quote
+                            p  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque lectus at nibh eleifend finibus. Donec posuere ultricies dolor, maximus imperdiet mi porta quis. Sed non nunc tempor, elementum metus vel
+                        .footer-carousel
+                            img(src="images/persona-testimonial.jpg")
+                            p Persona
+                .carousel-item
+                    .content
+                        .testimonial
+                            img(src="images/quote.svg").img-quote
+                            p  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque lectus at nibh eleifend finibus. Donec posuere ultricies dolor, maximus imperdiet mi porta quis. Sed non nunc tempor, elementum metus vel
+                        .footer-carousel
+                            img(src="images/persona-testimonial.jpg")
+                            p Persona
+
+            ol.carousel-indicators
+                li(data-target="#carouselTestimonial" data-slide-to="0").active
+                li(data-target="#carouselTestimonial" data-slide-to="1")

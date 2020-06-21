@@ -11,6 +11,7 @@
     let watch = require('gulp-watch');
     let file = require('gulp-file');
     let browserSync = require('browser-sync').create();
+    let babel = require('gulp-babel');
 
     let paths = {
         default: './',
@@ -51,7 +52,10 @@
 
     function min_scripts() {
         return gulp.src(paths.dev.jsScript)
-            .pipe(sourcemaps.init())
+            // .pipe(sourcemaps.init())
+            .pipe(babel({
+                presets: ['@babel/preset-env']
+            }))
             .pipe(uglify())
             .pipe(rename('scripts.min.js'))
             //.pipe(sourcemaps.write(paths.default))
@@ -64,7 +68,10 @@
 
     function expanded_scripts() {
         return gulp.src(paths.dev.jsScript)
-            .pipe(sourcemaps.init())
+            // .pipe(sourcemaps.init())
+            .pipe(babel({
+                presets: ['@babel/preset-env']
+            }))
            // .pipe(sourcemaps.write(paths.default))
             .pipe(gulp.dest(paths.dist.js))
 
