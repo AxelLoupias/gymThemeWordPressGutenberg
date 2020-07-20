@@ -1,0 +1,3 @@
+[submodule "maqueta"]
+	path = maqueta
+	url = https://github.com/Axel801/Frontend-Framework
