@@ -1,0 +1,31 @@
+html {
+    font-size: 10px;
+}
+
+@import "components/variables";
+@import "components/globals";
+
+body {
+    padding-top: 170px;
+    line-height: 2;
+    font-size: 1.6rem;
+
+    font-family: $fuenteSecundaria;
+    @media (max-width: 992px) {
+        padding-top: 90px;
+    }
+}
+
+body.home {
+    padding-top: 0;
+}
+
+@import "components/header";
+@import "components/hero";
+@import "components/text-divider";
+@import "components/section-areas";
+@import "components/section-clases";
+@import "components/section-instructores";
+@import "components/section-blog";
+@import "components/section-carousel-testimonial";
+@import "components/footer";
