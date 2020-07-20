@@ -10,6 +10,11 @@ h1 {
 
 h2 {
     font-size: 4.8rem;
+    //&.title{
+    //    margin-top: 4.8rem;
+    //    color:$colorPrimario;
+    //    text-align: center;
+    //}
 }
 
 h3 {
@@ -23,6 +28,8 @@ h4 {
 hr {
     border: 1px solid $grisClaro;
 }
+
+
 
 .btn {
     background-color: $blanco;

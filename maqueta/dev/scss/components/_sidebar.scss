@@ -1,0 +1,86 @@
+aside {
+    &.sidebar {
+        .widget {
+            padding: 2rem 0;
+            border-bottom: 1px solid $grisClaro;
+
+            &:first-of-type {
+                padding-top: 0;
+            }
+
+            &:last-of-type {
+                border-bottom: none;
+            }
+
+            a {
+                color: $black;
+
+                &:hover {
+                    color: $colorPrimario;
+                }
+            }
+
+            ul {
+                list-style: none;
+                padding-inline-start: 0;
+                margin: 0;
+
+                li {
+                    &.clase-sidebar {
+                        display: flex;
+                        justify-content: space-between;
+
+                        padding: 2rem 0;
+                        border-bottom: 1px solid $grisClaro;
+
+                        &:first-of-type {
+                            padding-top: 0;
+                        }
+
+                        &:last-of-type {
+                            border-bottom: none;
+                            padding-bottom: 0;
+                        }
+
+                        .imagen {
+                            flex: 0 0 30%;
+
+                            img {
+                                display: block;
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .contenido-clase {
+                            flex: 0 0 calc(70% - 2rem);
+
+                            h3 {
+                                margin: 0;
+                                font-size: 2.2rem;
+                                color: $colorPrimario;
+                                font-family: $fuentePrincipal;
+                                line-height: 1.2;
+                            }
+
+                            a {
+                                color: $colorPrimario;
+                                display: block;
+
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+
+                            p {
+                                margin-bottom: 0;
+                                font-weight: 700;
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

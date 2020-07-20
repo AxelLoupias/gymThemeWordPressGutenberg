@@ -16,9 +16,15 @@ body {
     }
 }
 
-body.home {
-    padding-top: 0;
+body {
+    &.home {
+        padding-top: 0;
+    }
+    &:not(.home) > .container{
+        margin-top: 4rem;
+    }
 }
+
 
 @import "components/header";
 @import "components/hero";
@@ -29,3 +35,6 @@ body.home {
 @import "components/section-blog";
 @import "components/section-carousel-testimonial";
 @import "components/footer";
+@import "components/single";
+@import "components/sidebar";
+
