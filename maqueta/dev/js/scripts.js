@@ -1,4 +1,4 @@
-$(function () {
+jQuery(function ($) {
     $(window).scroll(() => {
         let headerNav = $('.navbar-header');
         if (headerNav.offset().top > 90 ) {

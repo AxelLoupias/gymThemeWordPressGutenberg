@@ -1,11 +1,13 @@
-section.text-divider{
-    max-width: 80rem;
-    margin: 0 auto;
-    padding:5rem 0;
-    h2{
-
+section.text-divider {
+    & > div {
+        padding: 5rem 0;
     }
-    p{
 
+    h2 {
+        margin-top: 0;
+    }
+
+    p {
+        margin-bottom: 0;
     }
 }
