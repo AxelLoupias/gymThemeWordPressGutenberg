@@ -21,6 +21,6 @@
   "author": "Axel Loupias",
   "license": "ISC",
   "devDependencies": {
-    "@wordpress/scripts": "^7.2.0"
+    "@wordpress/scripts": "^12.1.1"
   }
 }
