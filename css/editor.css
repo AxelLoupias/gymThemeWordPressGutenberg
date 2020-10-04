@@ -1,0 +1,70 @@
+.wp-block {
+    max-width: 1140px;
+}
+
+.interface-interface-skeleton__content{
+    overflow-x: hidden; /*Fix horizontal scroll alignfull*/
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: calc(100% - 148px);
+}
+
+.is-sidebar-opened .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: calc(100% - 428px);
+}
+
+.container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+
+section.hero .title {
+    /*color: #898989;*/
+}
+
+
+.button-groups {
+    display: flex;
+    align-content: center;
+}
+
+.gymTheme-borrar-imagen,
+.gymTheme-agregar-imagen {
+    color: #fff;
+}
+
+
+section.section-areas .content-areas .area img {
+    position: absolute;
+}
+
+section.section-areas .content-areas .area .content-buttons {
+    margin-bottom: 70px;
+    z-index: 99;
+}
+
+section.section-areas .content-areas .area .content-buttons .gymTheme-borrar-imagen,
+section.section-areas .content-areas .area .content-buttons .gymTheme-agregar-imagen {
+    color: inherit;
+    z-index: 999;
+}
+
+section.section-areas .content-areas .area p {
+    opacity: 1;
+}
